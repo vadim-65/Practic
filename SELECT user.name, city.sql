@@ -1,0 +1,1 @@
+SELECT user.name, city.name FROM user INNER JOIN city ON user.city_id = city.id;
